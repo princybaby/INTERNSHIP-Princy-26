@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="container">
+                <div class="text-center">
+<a href="/" class="nav-brand text-dark">College</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+</--Main Site-->
+<main id="site-main">
+    <div class="container">  
+        <div class="box-nav d.flex-justify-between">
+            <div class="filter">
+                <a href="/"><i class="fas fa-angle-double-left"></i>All Students</a>
+            </div>
+            <div class="form-title text-center">
+                <h2 class="text-dark">New Student</h2>
+                <span class="text-light">Use the below form to create a new account</span>
+                <div class="new_student">
+                
+                        
+            <table>
+                
+                <tr>
+                       <th><label for="name">Name:</label></th> 
+                        <td><input type="text" name="name" value="" placeholder="JOGI"></td>
+                 </tr>
+                
+                <tr>    
+                    
+                       <th ><label for="rollno">Roll No</label></th>
+                      <td> <input type="text" name="rollno" value="" placeholder="25"></td>
+                    
+                </tr>
+                    <tr>
+                      <th><label for="mobileno">Mobile No</label></th>
+                        <td><input type="text" name="mobileno" value="" placeholder="9988774455"></td>
+                    </tr>
+
+                  <tr>
+                      <th> <label for="classid">Class Id</label></th> 
+                      <td> <input type="text" name="classid" value="" placeholder="9"></td>
+                    </tr>
+            </table>
+
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn text-dark update">submit
+
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+           
+    </--form handeling-->
+<form action="/"method="POST" id="update_student">
+
+    
+
+</form>
+</--/form handeling-->
+        </div>
+</main>
+
+</--/Main Site-->
+
+</body>
+</html>
